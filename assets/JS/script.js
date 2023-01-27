@@ -23,8 +23,13 @@ const relogio = setInterval(function time(){
         body.classList.add('night');
     }
 
-    if (hr >= 0 && hr <= 5) {
+    if (hr >= 0 && hr < 5) {
         body.classList.add('dawn');
     }
+
+    if (hr >=5 && hr <=7){
+        body.classList.add('sunrice');
+    }
+    
 
 })
