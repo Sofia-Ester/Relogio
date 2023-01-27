@@ -10,7 +10,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(120deg, #fffdf4fd, #16f9c8c5);
+    background: linear-gradient(120deg, #fffdf4fd, #0084ffc5);
 }
 
 .Relógio{
@@ -53,4 +53,8 @@ body{
 
 .dawn{
     background: linear-gradient(120deg, rgb(0, 0, 0), rgb(93, 15, 99), rgb(160, 85, 193));
+}
+
+.sunrice{
+    background: linear-gradient(120deg, #f0d280fd, #4df8edd9);
 }
